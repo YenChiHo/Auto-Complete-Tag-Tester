@@ -1,0 +1,78 @@
+.autocompletebar.widget{
+	border-radius:4px;
+	border:1px solid #CCC;
+	padding:3px 0 4px 5px;
+	background-color:#FFF;
+	text-align:left
+}
+
+.autocompletebar.tag{
+	background-color:#DDD;
+	border-radius:3px;
+	border:1px solid #CCC;
+	padding:1px 0 1px 4px;
+	margin:2px 4px 2px 0;
+	display:inline-block
+}
+
+.autocompletebar.tag.focus{
+	background-color:#FEFBC6
+}
+
+.autocompletebar.removebutton{
+	font-size:20px;
+	font-weight:700;
+	line-height:18px;
+	color:#000;
+	text-shadow:0 1px 0 #fff;
+	opacity:.2;
+	filter:alpha(opacity=20);
+	text-decoration:none;
+	font-family:'Helvetica Neue',Helvetica,Arial,sans-serif
+}
+
+.autocompletebar.removebutton:hover{
+	opacity:.4;
+	filter:alpha(opacity=40);
+	cursor:pointer
+}
+
+.autocompletebar.input{
+	display:inline-block;
+	position:relative
+}
+
+.autocompletebar.text-field{
+	border:none;
+	font-size:16px;
+	width:100%
+}
+
+.autocompletebar.text-field:focus{
+	outline:0
+}
+
+.autocompletebar.menu{
+	display:inline-block;
+	border-radius:6px;
+	border:1px solid #CCC;
+	padding:4px 0;
+	position:absolute;
+	left:2px;
+	top:22px;
+	background-color:#fff;
+	z-index:2000
+}
+
+.autocompletebar.menu-item{
+	padding:4px 8px;
+	text-align:left
+}
+
+.autocompletebar.menu-item.focus{
+	Background-color:#DDD
+}
+
+.autocompletebar.hide{
+	display:none
+}
